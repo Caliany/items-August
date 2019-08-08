@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,600">
+    <VerticalLayout width="62" height="46" bkimage="D:\备份文件\toolbar_pushed.png" bkcolor="#FF57FF80">
+        <VerticalLayout width="798" height="30" bkcolor="#FF57FFFF">
+            <Button name="BTN_CLOSE" float="true" pos="743,2,0,0" width="62" height="31" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;skin\360SafeRes\sys_dlg_close.png&apos; source=&apos;90,0,135,17&apos;" hotimage="file=&apos;skin\360SafeRes\sys_dlg_close.png&apos; source=&apos;45,0,90,17&apos;" pushedimage="file=&apos;skin\360SafeRes\button_normal.png&apos; source=&apos;0,0,45,17&apos;" />
+            <Button name=" BTN_MIN" float="true" pos="686,2,0,0" width="62" height="31" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;skin\360SafeRes\sys_dlg_min.png&apos; source=&apos;52,0,78,17&apos;" hotimage="file=&apos;skin\360SafeRes\sys_dlg_min.png&apos; source=&apos;26,0,52,17&apos;" pushedimage="file=&apos;skin\360SafeRes\sys_dlg_min.png&apos; source=&apos;0,0,26,17&apos;" />
+        </VerticalLayout>
+        <HorizontalLayout width="796" height="46">
+            <Option name="Option_Employee" text="员工操作" float="true" pos="3,0,0,0" width="73" height="46" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="skin\360SafeRes\button_normal.png" hotimage="D:\备份文件\button_hover.png" pushedimage="D:\备份文件\button_pushed.png" group="true" selected="true" />
+            <Option name="Option_Goods" text="商品操作" float="true" pos="78,0,0,0" width="73" height="46" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_normal.png" hotimage="button_hover.png" pushedimage="D:\备份文件\button_pushed.png" group="true" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

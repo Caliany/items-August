@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="649,339">
+    <VerticalLayout width="58" height="34" bkimage="chatmsgbk.png" bkcolor="#FFA1FFA0">
+        <Edit name="EDIT_USER_NAME" tooltip="请输用户名" float="true" pos="171,95,0,0" width="282" height="37" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Edit name="EDIT_USER_PASSWORD" tooltip="请输入用户密码" float="true" pos="171,154,0,0" width="282" height="37" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" password="true" />
+        <Button name="BTN_LOGIN" text="登 录" float="true" pos="251,218,0,0" width="104" height="41" bkcolor="#FFA1FFA0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        <HorizontalLayout width="648" height="37" bkcolor="#FFA0FFFF">
+            <Button name="BTN_CLOSE" float="true" pos="609,3,0,0" width="39" height="34" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;skin\360SafeRes\sys_dlg_close.png&apos; source=&apos;90,0,135,17&apos;" hotimage="file=&apos;skin\360SafeRes\sys_dlg_close.png&apos; source=&apos;45,0,90,17&apos;" pushedimage="file=&apos;skin\360SafeRes\sys_dlg_close.png&apos; source=&apos;0,0,45,17&apos;" />
+            <Button name="BTN_MIN" float="true" pos="572,3,0,0" width="39" height="34" bkcolor="#FF00FFFF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;skin\360SafeRes\sys_dlg_min.png&apos; source=&apos;52,0,78,17&apos;" hotimage="file=&apos;skin\360SafeRes\sys_dlg_min.png&apos; source=&apos;26,0,52,17&apos;" pushedimage="file=&apos;skin\360SafeRes\sys_dlg_min.png&apos; source=&apos;0,0,26,17&apos;" />
+        </HorizontalLayout>
+        <Label text="用户名" float="true" pos="90,95,0,0" width="55" height="34" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Label text="密 码" float="true" pos="90,155,0,0" width="55" height="34" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+    </VerticalLayout>
+</Window>
